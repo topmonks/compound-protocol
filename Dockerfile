@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:11.10.1
 
-RUN apk update && apk add --no-cache --virtual build-dependencies git python g++ make
+RUN apk update && apk add --no-cache --virtual build-dependencies git python g++ make && apk add bash
 RUN yarn global add truffle@5.0.30
 RUN yarn global add ganache-cli@6.5.1
 RUN yarn global add typescript

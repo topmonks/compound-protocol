@@ -61,7 +61,7 @@ We detail a few of the core contracts in the Compound protocol.
 
 Installation
 ------------
-To run compound, pull the repository from GitHub and install its dependencies. You will need [yarn](https://yarnpkg.com/lang/en/docs/install/) or [npm](https://docs.npmjs.com/cli/install) installed.
+To run compound, pull the repository from GitHub and install its dependencies. You will need [yarn](https://yarnpkg.com/lang/en/docs/install/) or [npm](https://docs.npmjs.com/cli/install) and [solc](https://solidity.readthedocs.io/en/v0.5.3/installing-solidity.html#binary-packages) installed.
 
     git clone https://github.com/compound-finance/compound-protocol
     cd compound-protocol
